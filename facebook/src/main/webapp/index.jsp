@@ -5,8 +5,8 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Facebook</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<title>Facebook</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-8">
-				<h1>UsuÃ¡rios</h1>
+				<h1>Usuários</h1>
 				<table class="table">
 					<thead>
 						<tr>
@@ -40,6 +40,9 @@
 
 					</tbody>
 				</table>
+				
+				<a class="btn btn-primary" href="user_form.html">Novo Usuário</a>
+				
 			</div>
 			<div class="col-md-2"></div>
 		</div>

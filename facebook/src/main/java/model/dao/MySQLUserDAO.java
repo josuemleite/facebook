@@ -68,7 +68,7 @@ public class MySQLUserDAO implements UserDAO {
 		List<User> users = new ArrayList<User>();
 			
 		// Declara um instrução SQL
-		String sqlQuery = "SELECT * FROM users";
+		String sqlQuery = "SELECT * FROM users ORDER BY nome";
 		
 		db.createStatement();
 	
